@@ -1,0 +1,145 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ .navebar {
+     height: 50px;
+     width: 100%;
+     background-color: rgb(0, 0, 0);
+     color: wheat;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .box {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ img {
+     height: 30px;
+     width: 30px;
+     align-self: center;
+     margin-left: 5px;
+     margin-top: 5px;
+     margin-right: 6px;
+ }
+ 
+ .home {
+     margin: 20px;
+ }
+ 
+ .home :hover {
+     border: 1px solid rgb(50, 61, 29);
+     padding: 1px;
+     color: chartreuse;
+ }
+ 
+ .contacts {
+     margin-top: 18px;
+     margin-right: 10px;
+ }
+ 
+ .contacts:hover {
+     border: 1px solid rgb(50, 61, 29);
+     padding: 1px;
+     color: chartreuse;
+ }
+ 
+ .About {
+     margin-top: 18px;
+     margin-right: 10px;
+ }
+ 
+ .About:hover {
+     border: 1px solid rgb(50, 61, 29);
+     padding: 1px;
+     color: chartreuse;
+ }
+ 
+ .search {
+     position: absolute;
+     right: 3px;
+     margin-top: 18px;
+ }
+ 
+ button {
+     border-color: rgb(0, 0, 0);
+     color: antiquewhite;
+     background-color: black;
+ }
+ 
+ button:hover {
+     background-color: gray;
+ }
+ 
+ .container {
+     height: 300px;
+     width: 100%;
+     background-image: url("d.jpg");
+     background-size: cover;
+ }
+ 
+ .boxes {
+     height: 800px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ 
+ #boxa {
+     height: 250px;
+     width: 250px;
+     background-image: url("f.jpg");
+     background-size: cover;
+     margin: 20px;
+     margin-left: 60px;
+     margin-top: 40px;
+ }
+ 
+ #boxb {
+     height: 250px;
+     width: 250px;
+     background-image: url("e.jpg");
+     background-size: cover;
+     margin: 20px;
+     margin-top: 40px;
+ }
+ 
+ #boxc {
+     height: 250px;
+     width: 250px;
+     background-image: url("g.jpg");
+     background-size: cover;
+     margin: 20px;
+     margin-top: 40px;
+ }
+ 
+ #boxd {
+     height: 250px;
+     width: 250px;
+     background-image: url("h.jpg");
+     background-size: cover;
+     margin: 20px;
+     margin-left: 60px;
+ }
+ 
+ #boxe {
+     height: 250px;
+     width: 250px;
+     background-image: url("i.jpg");
+     background-size: cover;
+     margin: 20px;
+ }
+ 
+ #boxf {
+     height: 250px;
+     width: 250px;
+     background-image: url("k.jpg");
+     background-size: cover;
+     margin: 20px;
+ }
